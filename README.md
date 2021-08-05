@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Code](https://github.com/Jimender/single-price-grid)
+- Live Site URL: [Live](https://jimender.github.io/single-price-grid/)
 
 ## My process
 
