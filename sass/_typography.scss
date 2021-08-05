@@ -1,0 +1,85 @@
+h2 {
+  color: $color-cyan;
+  font-size: 2.2rem;
+
+  @include respond(mobile-land) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  margin-top: 2.2rem;
+  font-size: 1.65rem;
+  letter-spacing: 0.1px;
+
+  @include respond(mobile-land) {
+    margin-top: 0.8rem;
+  }
+}
+
+p {
+  font-size: 1.5rem;
+  margin-top: 0.8rem;
+  color: #e5eff5;
+
+  @include respond(mobile-land) {
+    font-size: 1.55rem;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 1.9rem;
+}
+
+ul li {
+  font-size: 1.3rem;
+  opacity: 0.8;
+  margin-top: 0.4rem;
+
+  @include respond(mobile-land) {
+    font-size: 1.4rem;
+  }
+}
+
+.full-box__content {
+  h3 {
+    margin-top: 2.2rem;
+    color: $color-bright-yellow;
+    letter-spacing: 0;
+    font-weight: 700;
+    @include respond(mobile-land) {
+      margin-top: 2.35rem;
+    }
+  }
+  p {
+    font-size: 1.5rem;
+    color: $color-grayish-blue;
+    margin-top: 1.4rem;
+    line-height: 2.28rem;
+
+    @include respond(mobile-land) {
+      font-size: 1.38rem;
+      margin-top: 2.1rem;
+      line-height: 2.6rem;
+    }
+  }
+}
+
+.price {
+  font-size: 2.9rem;
+  font-weight: 700;
+
+  @include respond(mobile-land) {
+    font-size: 3rem;
+  }
+}
+
+.month {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  opacity: 0.5;
+  @include respond(mobile-land) {
+    margin-left: 1.2rem;
+  }
+}

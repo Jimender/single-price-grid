@@ -1,0 +1,63 @@
+.master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60rem;
+  max-width: 144rem;
+  margin: 6rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  box-shadow: 0 2rem 5rem rgba($color-grayish-blue, 0.25);
+
+  @include respond(mobile-land) {
+    width: 83%;
+    margin: 7.5rem 0;
+  }
+
+  &__upper {
+    background-color: white;
+  }
+
+  .full-box {
+    padding: 3.8rem;
+
+    @include respond(mobile-land) {
+      padding: 2.8rem 2.4rem;
+    }
+  }
+
+  &__lower {
+    display: flex;
+    flex-direction: row;
+
+    @include respond(mobile-land) {
+      flex-direction: column;
+    }
+  }
+
+  .box-1,
+  .box-2 {
+    width: 100%;
+    color: white;
+    &__content {
+      padding: 1.8rem 3.8rem;
+
+      @include respond(mobile-land) {
+        padding: 2rem 2.4rem;
+      }
+    }
+  }
+
+  .box-1 {
+    background-color: $color-cyan;
+  }
+  .box-2 {
+    background-color: #4abebd;
+  }
+
+  .price-month__container {
+    margin-top: 1.6rem;
+    display: flex;
+    align-items: center;
+  }
+}

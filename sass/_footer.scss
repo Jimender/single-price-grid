@@ -1,0 +1,14 @@
+.attribution {
+  color: #333;
+  font-size: 1.3rem;
+  text-align: center;
+
+  @include respond(mobile-land) {
+    font-size: 1.4rem;
+  }
+
+  a {
+    color: blueviolet;
+    text-decoration: none;
+  }
+}

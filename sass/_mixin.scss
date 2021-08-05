@@ -1,0 +1,12 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == mobile-m {
+    @media (max-width: 23.4375em) {
+      @content;
+    }
+  }
+  @if $breakpoint == mobile-land {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+}
